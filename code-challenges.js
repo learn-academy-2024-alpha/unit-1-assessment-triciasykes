@@ -17,7 +17,23 @@ const fruit3 = "cherry"
 const fruit4 = "kiwi"
 // Expected outcome: "cherry"
 
+const longerWord = (str1, str2) => {
+  if (str1.length > str2.length) {
+    return `${str1} has more characters than ${str2}`
+  } else if (str2.length > str1.length) {
+    return `${str2} has more characters than ${str1}`
+  } else {
+    return "something went wrong"
+  }
+}
+
+console.log(longerWord(fruit1, fruit2)) //
+console.log(longerWord(fruit3, fruit4)) //
+// output:
 // Explain your code:
+//  - based on question, evaluate length of each string using .lenght property
+//  then I used a conditional and relational operators to determine which string is longer
+// returned sentence stating the longer string
 
 // --------------------1) Create a function that takes in an array of numbers and returns the sum of all the numbers. Use the test variables provided below.
 

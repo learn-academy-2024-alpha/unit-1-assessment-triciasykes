@@ -8,10 +8,10 @@
 
 // --------------------INSTRUCTOR EXAMPLE: What will this log?
 const colors = ["tangerine", "magenta", "lilac", "daffodil"]
-// console.log(colors.push("indigo"))
+console.log(colors.push("indigo"))
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: indigo added to beginning of array
+// b) Verify and explain: output is 5.  This is because when you console log the action of .push(), you get the total number of elements in the array after element is added to END of array. If the wanted to show array with all the elements I would have to set to new varialbe and console log the var
 
 // --------------------1) What will this log?
 
